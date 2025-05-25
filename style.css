@@ -3,7 +3,26 @@ body {
   background-color: #1e1e1e;
   color: #f0f0f0;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+#map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+#map div {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #444;
+  color: white;
+}
+
+#map .active {
+  background-color: #007acc;
+  font-weight: bold;
 }
 
 #game {
@@ -12,6 +31,12 @@ body {
   background: #2c2c2c;
   padding: 2rem;
   border-radius: 10px;
+}
+
+#scene-image {
+  max-width: 100%;  
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 button {
